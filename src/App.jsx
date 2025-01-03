@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import "./App.css";
+import { Analytics } from '@vercel/analytics/next';
 
 const App = () => {
     const [isDarkMode, setDarkMode] = useState(false);
@@ -23,6 +24,7 @@ const App = () => {
                 <Skills isDarkMode={isDarkMode} />
                 <Contact isDarkMode={isDarkMode} />
             </main>
+            <Analytics />
         </div>
     );
 };
