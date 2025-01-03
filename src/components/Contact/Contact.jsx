@@ -80,10 +80,10 @@ const Contact = ({ isDarkMode }) => {
             </form>
 
             <div className="social-links">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/navaneeth2707/" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/navaneeth277/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
                 <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">

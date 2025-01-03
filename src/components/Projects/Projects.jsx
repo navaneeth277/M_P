@@ -1,28 +1,31 @@
 import React from "react";
 import "./Projects.css";
 import Im from "../public/image.png"
+import Im1 from "../public/dod.png"
+import Im2 from "../public/To_do.png"
+import Im3 from "../public/Exper.png"
 
 const Projects = ({ isDarkMode }) => {
   const projects = [
     {
       title: "Expre - Exam Preparation Assistant",
-      description: "A web app to assist with exam preparation through summarization, keyword extraction, and code writing.",
-      image: Im,// Use public folder images directly
-      github: "https://github.com/Navaneeth2707/expre",
+      description: "Expre is a web app built with React, Node.js, and the Gemini API to help with exam preparation. It includes features like summarizing content, extracting keywords, writing essays, and coding in languages like C++, Java, Python, and C. It’s designed with sections for questions, materials, and coding to make studying easier for students.",
+      image: Im3,// Use public folder images directly
+      github: "https://github.com/Navaneeth2707/",
+      demo: "https://expre-frountend-taupe.vercel.app/",
+    },
+    {
+      title: "To Do List",
+      description: "Your to-do list app is a simple and user-friendly tool built using React. It allows users to add, edit, and delete tasks, helping them stay organized and manage their daily activities efficiently.",
+      image: Im2,
+      github: "https://github.com/Navaneeth2707/To_Do_List",
       demo: "https://link_to_project_demo.com",
     },
     {
-      title: "Chat Application",
-      description: "A real-time chat application with active user lists and message timestamps.",
-      image: Im,
-      github: "https://github.com/example/chat-app",
-      demo: "https://chat-app-demo.com",
-    },
-    {
-      title: "Diabetes Prediction App",
-      description: "A machine learning-based web app to predict diabetes based on user input.",
-      image: Im,
-      github: "https://github.com/Navaneeth2707/diabetes-prediction",
+      title: "Find date using date",
+      description: "The Find Date feature calculates a future or past date based on a given date. It simplifies date-based planning by allowing users to add or subtract days from the selected date easily.",
+      image: Im1,
+      github: "https://github.com/Navaneeth2707/Day-of-Date",
       demo: "https://link_to_project_demo.com",
     },
   ];
